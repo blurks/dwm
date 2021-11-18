@@ -9,9 +9,10 @@ Push changes to github: `git push origin`
 
 ## applied patches
 
-* [systray](http://dwm.suckless.org/patches/systray/)
 * [centeredwindowname](http://dwm.suckless.org/patches/centeredwindowname/)
 * [columns](https://dwm.suckless.org/patches/columns/)
+* [pertag] (https://dwm.suckless.org/patches/pertag/)
+* [systray](http://dwm.suckless.org/patches/systray/)
 
 ## ideas
 
