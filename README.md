@@ -11,6 +11,7 @@ Push changes to github: `git push origin`
 
 * [systray](http://dwm.suckless.org/patches/systray/)
 * [centeredwindowname](http://dwm.suckless.org/patches/centeredwindowname/)
+* [columns](https://dwm.suckless.org/patches/columns/)
 
 ## ideas
 
