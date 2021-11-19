@@ -48,6 +48,7 @@ static const Rule rules[] = {
         { "QjackCtl",   NULL,       NULL,       0,            1,           -1 },
         { "Udiskie",    "udiskie",  NULL,       0,            1,           -1 },
 	{ "firefox",    NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "Firefox",    NULL,       NULL,       1 << 8,       0,           -1 },
 	{ NULL,         "Mail",     NULL,       1 << 7,       0,           -1 },
         
 };
