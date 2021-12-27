@@ -2,7 +2,6 @@
 
 /* appearance */
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
-
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected
                                                    monitor, >0: pin systray to monitor X */
@@ -42,13 +41,13 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class        instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",       NULL,       NULL,       0,            1,           -1 },
-        { "Jack-keyboard", NULL,    NULL,       0,            1,           -1 },
-        { "QjackCtl",   NULL,       NULL,       0,            1,           -1 },
-        { "Udiskie",    "udiskie",  NULL,       0,            1,           -1 },
-	{ "firefox",    NULL,       NULL,       1 << 8,       0,           -1 },
-	{ NULL,         "Mail",     NULL,       1 << 7,       0,           -1 },
+	/* class           instance   title       tags mask  isfloating  monitor */
+	{ "Gimp",          NULL,      NULL,       0,         1,          -1 },
+    { "Jack-keyboard", NULL,      NULL,       0,         1,          -1 },
+    { "QjackCtl",      NULL,      NULL,       0,         1,          -1 },
+    { "Udiskie",       "udiskie", NULL,       0,         1,          -1 },
+	{ "firefox",       NULL,      NULL,       1 << 8,    0,          -1 },
+	{ NULL,            "Mail",    NULL,       1 << 7,    0,          -1 },
         
 };
 
