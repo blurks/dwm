@@ -1493,8 +1493,8 @@ resizeclient(Client *c, int x, int y, int w, int h)
 	    || &monocle == c->mon->lt[c->mon->sellt]->arrange))
 	    && !c->isfullscreen && !c->isfloating
 	    && NULL != c->mon->lt[c->mon->sellt]->arrange) {
-	        c->w = wc.width += c->bw * 2;
-	        c->h = wc.height += c->bw * 2;
+            //c->w = wc.width += c->bw * 2;
+	        //c->h = wc.height += c->bw * 2;
 	        wc.border_width = 0;
 	}
 	XConfigureWindow(dpy, c->win, CWX|CWY|CWWidth|CWHeight|CWBorderWidth, &wc);
@@ -1999,13 +1999,13 @@ tile(Monitor *m) {
 	                if (i < m->nmaster) {
 	                        h = (m->wh - my) / (MIN(n, m->nmaster) - i);
 	                        if (n == 1)
-	                                resize(c, m->wx - c->bw, m->wy, m->ww, m->wh, False);
+	                                resize(c, m->wx, m->wy, m->ww, m->wh, False);
 	                        else
-	                                resize(c, m->wx - c->bw, m->wy + my, mw - c->bw, h - c->bw, False);
+	                                resize(c, m->wx, m->wy + my, mw - 2 * c->bw, h - 2 * c->bw, False);
 	                        my += HEIGHT(c) - c->bw;
 	                } else {
 	                        h = (m->wh - ty) / (n - i);
-	                        resize(c, m->wx + mw - c->bw, m->wy + ty, m->ww - mw, h - c->bw, False);
+	                        resize(c, m->wx + mw, m->wy + ty, m->ww - mw - 2 * c->bw, h - 2 * c->bw, False);
 	                        ty += HEIGHT(c) - c->bw;
 	                }
 	}
