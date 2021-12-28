@@ -12,6 +12,7 @@ Push changes to github: `git push origin`
 * [columns](https://dwm.suckless.org/patches/columns/)
 * [functionalgaps](https://dwm.suckless.org/patches/functionalgaps/)
 * [pertag](https://dwm.suckless.org/patches/pertag/)
+* [statusallmons](https://dwm.suckless.org/patches/statusallmons/)
 * [systray](http://dwm.suckless.org/patches/systray/)
 
 ## patches later removed
