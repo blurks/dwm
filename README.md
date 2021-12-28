@@ -9,11 +9,14 @@ Push changes to github: `git push origin`
 
 ## applied patches
 
-* [centeredwindowname](http://dwm.suckless.org/patches/centeredwindowname/)
 * [columns](https://dwm.suckless.org/patches/columns/)
 * [functionalgaps](https://dwm.suckless.org/patches/functionalgaps/)
 * [pertag](https://dwm.suckless.org/patches/pertag/)
 * [systray](http://dwm.suckless.org/patches/systray/)
+
+## patches later removed
+
+* [centeredwindowname](http://dwm.suckless.org/patches/centeredwindowname/)
 
 ## ideas
 
