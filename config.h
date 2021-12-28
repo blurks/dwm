@@ -28,11 +28,11 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[]        = { "1", "2", "3", "4", "5", "6", "7", "@", "W" };
+static const char *tags[]        = { "1", "2", "3", "4", "5", "6", "C", "@", "W" };
 /* default gap between windows in pixels, this can be customized for each tag */
 static const unsigned int gappx[] = { 9,   9,   9,   9,   9,   9,   9,   9,   9  };
 /* 1 means gaps are used by default, this can be customized for each tag */
-static const int startwithgaps[] = {  1,   1,   1,   1,   1,   1,   1,   0,   0  };
+static const int startwithgaps[] = {  1,   1,   1,   1,   1,   1,   0,   0,   0  };
 
 
 
@@ -48,7 +48,8 @@ static const Rule rules[] = {
     { "Udiskie",       "udiskie", NULL,       0,         1,          -1 },
 	{ "firefox",       NULL,      NULL,       1 << 8,    0,          -1 },
 	{ NULL,            "Mail",    NULL,       1 << 7,    0,          -1 },
-        
+    { "TelegramDesktop", NULL,    NULL,       1 << 6,    0,          -1 },
+    { "Mattermost",    NULL,      NULL,       1 << 6,    0,          -1 }
 };
 
 /* layout(s) */
