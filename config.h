@@ -28,7 +28,13 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[]        = { "1", "2", "3", "4", "5", "6",
+static const char *tags[] = {
+   "\316\261",         // alpha
+   "\316\262",         // beta
+   "\316\263",         // gamma
+   "\316\264",         // delta
+   "\316\265",         // epsilon
+   "\316\266",         // zeta
    "\360\237\227\251", // speech bubble
    "\360\237\226\202", // envelope
    "\360\237\214\215"  // globe
